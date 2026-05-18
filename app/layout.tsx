@@ -59,9 +59,11 @@ export default function RootLayout({
             <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
               <div className="grid gap-10 md:grid-cols-3">
                 <div>
-                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#1F4D2B] text-lg font-bold text-white">
-                    LF
-                  </div>
+                  <img
+                    src="/lawnfadez-logo.png"
+                    alt="Lawn Fadez Logo"
+                    className="h-12 w-auto object-contain"
+                  />
 
                   <p className="mt-5 max-w-xs text-sm leading-6 text-[#5C665D]">
                     Professional lawn care focused on clean cuts, sharp edges,
