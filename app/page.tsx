@@ -59,6 +59,42 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section className="mx-auto max-w-7xl px-8 py-20 lg:px-12">
+        <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <div className="text-[11px] uppercase tracking-[0.32em] text-[#8f7750]">
+              Recent Work
+            </div>
+            <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#162117] md:text-4xl">
+              Clean cuts, sharp lines, and dependable results.
+            </h2>
+          </div>
+
+          <p className="max-w-xl text-sm leading-7 text-[#58635A]">
+            A look at the quality and attention to detail Lawn Fadez brings to every property.
+          </p>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {[
+            "/photos/lawn-1.jpg",
+            "/photos/lawn-2.jpg",
+            "/photos/lawn-3.jpg",
+            "/photos/lawn-4.jpg",
+          ].map((src) => (
+            <div
+              key={src}
+              className="overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-[0_10px_35px_rgba(17,24,39,0.06)]"
+            >
+              <img
+                src={src}
+                alt="Lawn Fadez recent lawn care work"
+                className="h-72 w-full object-cover transition duration-300 hover:scale-105"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
