@@ -17,12 +17,13 @@ export default function RootLayout({
           <header className="sticky top-0 z-20 border-b border-black/5 bg-[#F5F8F2]/90 backdrop-blur">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
               <a href="/" className="flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#1F4D2B] text-lg font-bold text-white">
-                  LF
-                </div>
-
+                <img
+                  src="/lawnfadez-logo.png"
+                  alt="Lawn Fadez Logo"
+                  className="h-12 w-auto object-contain"
+                />
                 <div>
-                  <div className="text-[11px] uppercase tracking-[0.28em] text-[#4F8F3A]">
+                  <div className="text-[11px] uppercase tracking-[0.28em] text-[#8f7750]">
                     Professional Lawn Care
                   </div>
                   <div className="text-sm font-semibold tracking-[0.18em] text-[#1F4D2B]">
