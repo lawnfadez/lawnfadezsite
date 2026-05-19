@@ -25,7 +25,7 @@ export default function ContactPage() {
 
         <div className="rounded-[2rem] border border-black/8 bg-white p-8 shadow-[0_20px_60px_rgba(17,24,39,0.08)]">
           <form
-            action="https://formspree.io/f/YOUR_FORM_ID"
+            action="https://formspree.io/f/mpqnwlez"
             method="POST"
             className="space-y-4"
           >
